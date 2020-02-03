@@ -1,0 +1,256 @@
+﻿body {
+  background-image: url(https://i.pinimg.com/564x/f9/f7/1c/f9f71ca27560524f8c9786f431501e34.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: padding-box;
+  background-position: center;
+  background-size: 55.1em;
+  background-position-y: 24em;
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  width: 800px;
+  height: 1500px;
+  border: 5px solid black;
+  padding: 0 2.5em 2.5em 2.5em;
+  margin: 0 auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+input {
+  display: none;
+}
+.ani {
+  z-index: 3;
+  cursor: pointer;
+  text-align: center;
+  margin: -1.17em 0 -1em 10em;
+  padding: -500px 0 0 0;
+  width: 400px;
+  height: 32.8px;
+  background-color: rgb(245, 245, 245);
+  background-repeat: no-repeat;
+  border-radius: 0 0 12px 12px;
+  font-size: 20px;
+  color: rgb(0, 56, 161);
+  position: sticky;
+  top: 0px;
+  transition-property: top;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  display: block;
+}
+input:checked + .ani {
+  position: relative;
+  top: -200px;
+  /* top: 0px; */
+  margin: 0 0 -1.9.5em 10em;
+  padding: 0 auto;
+}
+
+/* h3 {
+  text-align: center;
+}
+
+#sticky {
+  padding: 0;
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 0 0 20px 20px;
+  font-size: 24px;
+  color: rgb(0, 56, 161);
+  position: sticky;
+  top: 0px;
+  transition-property: top;
+  transition-duration: 1s;
+} */
+
+#sticky:active {
+  position: sticky;
+  top: -90px;
+  margin-top: 0px;
+}
+
+img#afpa {
+  z-index: 1;
+  /* border-radius: 50%; */
+  width: 150px;
+  float: right;
+  margin: 4.2em 0em 0em 0em;
+  padding: 0 0 0 1em;
+}
+
+img#hdf {
+  width: 150px;
+  float: right;
+  margin-top: 4em;
+}
+
+img:hover {
+  opacity: 1;
+  animation: blinker 1.4s linear infinite;
+}
+
+/* @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    } */
+
+h1 {
+  text-align: left;
+  font-size: 55px;
+  margin-top: 1.5em;
+}
+
+h2 {
+  border-bottom: black solid 2.9px;
+  margin-top: 15px;
+  margin-bottom: 18px;
+  padding-bottom: 30px;
+}
+
+#titre {
+  color: rgb(0, 56, 161);
+}
+
+div {
+  margin: 0 0 0 0;
+  color: black;
+  text-align: right;
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+}
+
+.adresse {
+  float: left;
+  text-align: left;
+  font-weight: lighter;
+}
+
+#numéro {
+  animation: blinker 2s linear infinite;
+}
+
+#numéro:hover {
+  animation: none;
+}
+
+#mail {
+  animation: blinker 2s linear infinite;
+}
+
+#mail:hover {
+  animation: none;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.green,
+#number,
+#formation,
+#span1 {
+  color: rgb(64, 160, 0);
+}
+
+#number:hover {
+  color: rgb(0, 56, 161);
+}
+
+#number:active {
+  color: rgb(41, 41, 41);
+}
+
+/* #passetemps {color: rgba(65, 160, 1, 0.87);
+  text-decoration-color: rgb(0, 56, 161);
+} */
+
+p {
+  text-decoration: underline;
+  text-align: right;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Alata", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  font-style: normal;
+  font-variant: small-caps;
+  text-align: left;
+}
+
+#formation {
+  padding: 0em;
+  text-decoration-line: underline;
+}
+
+.bold {
+  font-weight: bold;  
+}
+
+.bordertop {
+  border-top: solid 3px black;
+  margin: 0;
+  padding: 0;
+}
+
+#experience {
+  padding: 0;
+  color: rgb(0, 56, 161);
+  text-decoration-line: underline;
+}
+
+#span1 {
+  display: inline-block;
+  /* border-bottom: 4px solid rgb(0, 56, 161); */
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#span2 {
+  color: rgb(0, 56, 161);
+  display: inline-block;
+  /* border-bottom: 4px solid rgba(65, 160, 1, 0.87); */
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+a:link {
+  color: rgb(0, 56, 161);
+  text-decoration: none;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: rgb(64, 160, 0);
+}
+
+a:active {
+  color: rgb(41, 41, 41);
+}
+
+ol {
+  font-size: 20px;
+}
+ul {
+  font-size: 20px;
+}
+
+.passetemps {
+  font-weight: bold;
+}
